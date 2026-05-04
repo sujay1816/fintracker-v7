@@ -17,12 +17,12 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCstuwnxh8VH8-kbzno151N4ZQcCSr4tRQ",
+  authDomain: "fintracker-6751d.firebaseapp.com",
+  projectId: "fintracker-6751d",
+  storageBucket: "fintracker-6751d.firebasestorage.app",
+  messagingSenderId: "222170459132",
+  appId: "1:222170459132:web:61d603b3ff65be0b756079"
 };
 
 const app = initializeApp(firebaseConfig);
